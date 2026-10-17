@@ -38,7 +38,7 @@ export default function EnterprisePage() {
             Enterprise Upgrade
           </span>
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-950 dark:text-white">
-            DonnaFlowFlow AI for Enterprise
+            DonnaFlow AI for Enterprise
           </h1>
           <p className="text-slate-500 dark:text-slate-400 text-sm">
             Deploy secure, isolated corporate email orchestration layers. Complete the setup details below to request custom production parameters.
@@ -157,7 +157,7 @@ export default function EnterprisePage() {
             <div className="space-y-2">
               <h3 className="text-xl font-bold text-slate-950 dark:text-white">Submission Successful</h3>
               <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
-                Your request has been securely received. The DonnaFlowFlow AI team will reach out to your organization shortly to coordinate your onboarding.
+                Your request has been securely received. The DonnaFlow AI team will reach out to your organization shortly to coordinate your onboarding.
               </p>
             </div>
             <Link 

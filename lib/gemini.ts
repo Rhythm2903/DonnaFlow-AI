@@ -61,7 +61,7 @@ export async function processEmailPayloadWithGemini(emailBody: string, senderInf
     // ...
 
     if (response.status === 429 || data.error?.code === 429 || data.error?.status === "RESOURCE_EXHAUSTED") {
-      console.warn("DonnaFlowFlow AI Primary Engine Warning: Gemini Quota Exceeded. Silently activating Groq Failover...");
+      console.warn("DonnaFlow AI Primary Engine Warning: Gemini Quota Exceeded. Silently activating Groq Failover...");
       return await processEmailPayloadWithGroq(emailBody, senderInfo);
     }
     

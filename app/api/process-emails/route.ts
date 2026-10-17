@@ -88,7 +88,7 @@ export async function POST(request: Request) {
     const providerToken = session?.provider_token;
     
     // --- BACKEND DIAGNOSTIC LOGS ---
-    console.log("=== DonnaFlowFlow AI OAUTH PIPELINE CORE CHECK ===");
+    console.log("=== DonnaFlow AI OAUTH PIPELINE CORE CHECK ===");
     console.log(`Is User Authenticated: ${!!session?.user}`);
     console.log(`Active Account Identity: ${session?.user?.email}`);
     console.log(`Google OAuth Token Found: ${!!providerToken}`);
@@ -169,7 +169,7 @@ export async function POST(request: Request) {
           return {
             ...email,
             category: "important",
-            aiAnalysis: "DonnaFlowFlow AI processed this item via engine failover defaults."
+            aiAnalysis: "DonnaFlow AI processed this item via engine failover defaults."
           };
         }
       })

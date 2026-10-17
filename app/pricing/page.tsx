@@ -24,7 +24,7 @@ export default function PricingPage() {
       name: "Standard Pilot", 
       price: "$29", 
       period: "per month",
-      description: "Ideal for testing DonnaFlowFlow AI's core parsing filters.",
+      description: "Ideal for testing DonnaFlow AI's core parsing filters.",
       features: ["AI Email Categorization", "Dynamic Summary Cards", "Google Calendar Sync", "Standard Support Access"]
     },
     { 

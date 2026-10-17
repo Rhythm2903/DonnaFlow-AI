@@ -91,7 +91,7 @@ export default function SignupPage() {
             <Sparkles className="h-5 w-5" />
           </div>
           <h1 className="text-3xl font-black text-slate-950 dark:text-white tracking-tight">Create your workspace</h1>
-          <p className="text-sm text-slate-500 dark:text-slate-400">Choose the name DonnaFlowFlow AI should use across your cockpit.</p>
+          <p className="text-sm text-slate-500 dark:text-slate-400">Choose the name DonnaFlow AI should use across your cockpit.</p>
         </div>
 
         {errorMsg && (
