@@ -13,7 +13,7 @@ export default function SecurityPage() {
           <div className="lg:col-span-2 rounded-[1.75rem] border border-slate-200 bg-white/80 p-6 shadow-2xl shadow-slate-950/[0.04] backdrop-blur-xl dark:border-slate-800 dark:bg-[#0f141c]/80">
             <p className="text-xs font-black uppercase tracking-widest text-brand-electric">Security & Keys</p>
             <h1 className="mt-2 text-3xl font-black tracking-tight">OAuth-first, token-aware workspace.</h1>
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-500 dark:text-slate-400">DONNA uses Supabase Auth for identity and Google provider tokens for mailbox/calendar access. Secrets stay server-side through API routes.</p>
+            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-500 dark:text-slate-400">DonnaFlowFlow AI uses Supabase Auth for identity and Google provider tokens for mailbox/calendar access. Secrets stay server-side through API routes.</p>
           </div>
           <motion.div animate={{ rotateX: [0, 8, 0], rotateY: [-10, 10, -10] }} transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }} className="rounded-[1.75rem] border border-brand-teal/20 bg-brand-teal/10 p-6 shadow-2xl shadow-brand-teal/[0.05]">
             <FolderLock className="h-8 w-8 text-brand-teal" />

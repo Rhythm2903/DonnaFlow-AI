@@ -148,7 +148,7 @@ export default function DashboardLayout({
           </button>
 
           <Link href="/" className="text-xl font-black font-mono tracking-tight uppercase text-slate-950 dark:text-white hover:opacity-90 transition-opacity">
-            DONNA
+            DonnaFlowFlow AI
           </Link>
           <span className="hidden sm:inline-block text-[10px] bg-brand-blue/10 text-brand-electric px-2.5 py-0.5 rounded font-bold uppercase tracking-wide">
             Workspace Cockpit

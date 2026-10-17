@@ -42,7 +42,7 @@ export default function PersonaPage() {
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div>
               <p className="text-xs font-black uppercase tracking-widest text-brand-electric">Persona Preferences</p>
-              <h1 className="mt-2 text-3xl font-black tracking-tight text-slate-950 dark:text-white">Teach DONNA how to represent you.</h1>
+              <h1 className="mt-2 text-3xl font-black tracking-tight text-slate-950 dark:text-white">Teach DonnaFlowFlow AI how to represent you.</h1>
               <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">This identity is used across the cockpit and can power future reply generation.</p>
             </div>
             <div className="flex h-16 w-16 items-center justify-center rounded-3xl bg-brand-blue text-white shadow-xl shadow-brand-blue/25">

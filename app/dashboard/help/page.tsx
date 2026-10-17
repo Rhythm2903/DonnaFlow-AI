@@ -21,7 +21,7 @@ export default function HelpPage() {
             </div>
             <div>
               <p className="text-xs font-black uppercase tracking-widest text-brand-electric">Documentation Hub</p>
-              <h1 className="mt-1 text-3xl font-black tracking-tight">How DONNA works</h1>
+              <h1 className="mt-1 text-3xl font-black tracking-tight">How DonnaFlowFlow AI works</h1>
             </div>
           </div>
         </div>

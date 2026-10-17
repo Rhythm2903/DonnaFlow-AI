@@ -384,7 +384,7 @@ export default function DashboardPage() {
             <div className="space-y-3 text-left">
               <h4 className="text-xs uppercase font-black tracking-widest text-brand-electric flex items-center space-x-2">
                 <Sparkles className="h-4 w-4 text-brand-electric" />
-                <span>DONNA AI Structural Content Analysis</span>
+                <span>DonnaFlowFlow AI AI Structural Content Analysis</span>
               </h4>
               <div className="p-6 bg-gradient-to-tr from-brand-blue/10 via-white to-transparent dark:from-brand-blue/10 dark:via-[#0f141c] dark:to-transparent border border-brand-electric/20 rounded-[1.5rem] space-y-3 shadow-xl shadow-brand-blue/[0.04]">
                 <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-medium">

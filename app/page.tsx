@@ -65,13 +65,13 @@ export default function LandingPage() {
           <Link href="/" className="flex items-center gap-2.5">
             <Image 
               src={logoImg} 
-              alt="DONNA Logo" 
+              alt="DonnaFlowFlow AI Logo" 
               width={24} 
               height={24} 
               className="object-contain"
               priority
             />
-            <span className="text-sm font-medium tracking-tight text-white">DONNA</span>
+            <span className="text-sm font-medium tracking-tight text-white">DonnaFlowFlow AI</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8 text-sm text-white/60">
@@ -112,7 +112,7 @@ export default function LandingPage() {
             variants={fadeUp} 
             className="text-[72px] md:text-[96px] lg:text-[120px] font-medium text-white tracking-[-0.08em] leading-[0.92] mb-8"
           >
-            Donna already took care of it.
+            DonnaFlow already took care of it.
           </motion.h1>
           
           <motion.p 
@@ -137,7 +137,7 @@ export default function LandingPage() {
                 type="submit" 
                 className="bg-[#F08049] text-[#06070A] text-sm font-medium px-5 py-2.5 rounded-full hover:bg-[#F08049]/90 whitespace-nowrap transition-colors duration-150"
               >
-                See DONNA Work
+                See DonnaFlowFlow AI Work
               </button>
             </form>
           </motion.div>
@@ -159,7 +159,7 @@ export default function LandingPage() {
         >
           <div className="w-full max-w-md bg-white/[0.02] border border-white/10 rounded-[32px] p-8 text-left tracking-tight">
             <div className="flex items-center justify-between mb-8">
-              <span className="text-xs font-medium tracking-[0.2em] text-white/40">DONNA</span>
+              <span className="text-xs font-medium tracking-[0.2em] text-white/40">DonnaFlowFlow AI</span>
               <div className="w-2 h-2 rounded-full bg-[#F08049] shadow-[0_0_12px_rgba(240,128,73,0.4)]" />
             </div>
 
@@ -200,7 +200,7 @@ export default function LandingPage() {
           transition={{ duration: 0.6 }}
         >
           Most inboxes create work. <br />
-          <span className="text-[#F08049]">Donna</span> removes it.
+          <span className="text-[#F08049]">DonnaFlow</span> removes it.
         </motion.h2>
       </section>
 
@@ -347,14 +347,14 @@ export default function LandingPage() {
             Email was never meant to be work.
           </h2>
           <p className="text-base md:text-lg text-white/40 max-w-md mx-auto mb-10 leading-relaxed font-normal">
-            Let Donna handle the inbox. You handle everything else.
+            Let DonnaFlow handle the inbox. You handle everything else.
           </p>
           
           <Link 
             href="/auth/signup" 
             className="inline-block bg-[#F08049] text-[#06070A] px-8 py-3.5 rounded-full font-medium hover:bg-[#F08049]/90 transition-colors duration-150 text-base shadow-[0_0_40px_rgba(240,128,73,0.15)]"
           >
-            Open DONNA
+            Open DonnaFlowFlow AI
           </Link>
         </motion.div>
       </section>
@@ -362,8 +362,8 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="max-w-7xl mx-auto px-8 py-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-white/30 font-normal">
         <div className="flex items-center gap-2">
-          <Image src={logoImg} alt="DONNA Logo" width={16} height={16} className="opacity-30" />
-          <span>© 2026 DONNA. All rights reserved.</span>
+          <Image src={logoImg} alt="DonnaFlowFlow AI Logo" width={16} height={16} className="opacity-30" />
+          <span>© 2026 DonnaFlowFlow AI. All rights reserved.</span>
         </div>
         <div className="flex gap-8">
           <Link href="/privacy" className="hover:text-white/50 transition-colors duration-150">Privacy Policy</Link>

@@ -1,57 +1,77 @@
-# DONNA — AI Email Assistant
+# DonnaFlow AI
 
-DONNA is a Next.js application that uses AI to classify emails, summarize content, and auto-schedule calendar events via Google integration.
+> **Autonomous Executive Inbox Command Center & Scheduling Copilot**
 
-## Tech Stack
+Autonomous executive email assistant and scheduling orchestrator. Connects securely with Gmail and Google Calendar to categorize incoming correspondence, synthesize executive summaries of email threads, and auto-schedule meetings with conflict detection.
 
-- **Framework:** Next.js 14 (App Router)
-- **Auth & Database:** Supabase
-- **AI:** Google Gemini (primary) with Groq fallback
-- **Styling:** Tailwind CSS
+---
 
-## Local Development
+## 🚀 Tech Stack & Badges
 
-1. Clone the repository and install dependencies:
+`Next.js 14` `TypeScript` `Google Workspace` `Gemini AI` `Supabase` `Tailwind CSS`
+
+### Core Technologies
+- **Next.js 14**
+- **TypeScript**
+- **Google Workspace**
+- **Gemini AI**
+- **Supabase**
+- **Tailwind CSS**
+
+---
+
+## ✨ Key Features
+
+- **Autonomous Intelligence:** Powered by high-speed LLM reasoning and real-time inference pipelines.
+- **Modern Responsive UI:** Polished interface featuring responsive layouts, fluid transitions, and clear visual hierarchy.
+- **Enterprise-Grade Security:** Strict environment separation, sanitized API configuration, and secure session handling.
+- **Cloud-Ready Architecture:** Pre-configured for seamless serverless deployment on Vercel.
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone & Install Dependencies
 
 ```bash
+git clone https://github.com/Rhythm2903/DonnaFlow-AI.git
+cd DonnaFlow-AI
+
+# Install dependencies
 npm install
 ```
 
-2. Copy the environment template and fill in your values:
+### 2. Configure Environment Variables
 
 ```bash
 cp .env.example .env.local
 ```
 
-3. Start the development server:
+Populate `.env.local` with your database and API keys.
+
+### 3. Run Development Server
 
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Environment Variables
 
-| Variable | Required | Description |
-|---|---|---|
-| `NEXT_PUBLIC_SUPABASE_URL` | Yes | Supabase project URL |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Yes | Supabase anonymous/public key |
-| `GEMINI_API_KEY` | No | Google Gemini API key for AI email analysis |
-| `GROQ_API_KEY` | No | Groq API key (failover when Gemini is unavailable) |
+---
 
-## Deploy to Vercel
+## 🔐 Environment Variables
 
-1. Push this repo to GitHub.
-2. Import the project in [Vercel](https://vercel.com/new).
-3. Add the environment variables from `.env.example` in **Project Settings → Environment Variables**.
-4. In **Supabase Dashboard → Authentication → URL Configuration**, add:
-   - Site URL: `https://your-vercel-domain.vercel.app`
-   - Redirect URLs: `https://your-vercel-domain.vercel.app/auth-callback`
-5. Deploy. Vercel auto-detects Next.js — no extra config needed.
+Refer to [`.env.example`](.env.example) for the full list of required environment variables. Never commit actual secret keys to version control.
 
-## Google OAuth Setup (Supabase)
+---
 
-1. Enable Google provider in Supabase → Authentication → Providers.
-2. Add Gmail and Calendar scopes in your Google Cloud Console OAuth consent screen.
-3. Configure authorized redirect URI: `https://<your-supabase-ref>.supabase.co/auth/v1/callback`.
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+Developed & Maintained by **Rhythm Agarwal** ([@Rhythm2903](https://github.com/Rhythm2903))

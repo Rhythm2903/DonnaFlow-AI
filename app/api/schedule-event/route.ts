@@ -39,7 +39,7 @@ export async function POST(request: Request) {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        summary: `DONNA: ${title}`,
+        summary: `DonnaFlowFlow AI: ${title}`,
         start: { 
           dateTime: startDateTime, 
           timeZone: timeZone || "Asia/Kolkata"
